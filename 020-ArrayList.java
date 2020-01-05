@@ -93,7 +93,7 @@ public class Main {
 
     public static void addItem(){
         System.out.print("Pleae enter item :: " );
-        groceryList.addGroceryItem(scanner.nextLine());
+        groceryList.addGroceryItem(scanner.nextLine()); 
     }
 
     public static void modifyItem(){
